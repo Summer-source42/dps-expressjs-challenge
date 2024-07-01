@@ -9,7 +9,6 @@ const app = express();
 
 // app.use(express.json());
 
-
 // Project routes
 app.get('/api/v1/projects', projectsController.getAllProjects);
 app.get('/api/v1/projects/:id', projectsController.getProjectById);
